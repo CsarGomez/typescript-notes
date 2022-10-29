@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@300;400;700&display=swap')
+
+html 
+  box-sizing: border-box
+  background-color: white
+
+  *,
+  *:before,
+  *:after
+  box-sizing: inherit
+  padding: 0
+  margin: 0
+
+input,button
+  padding: .5rem
+  font-size: 1rem
+  border-radius: .2rem
+  border: 1px solid black
+
+input
+  outline: none
+
+button
+  background-color: black
+  color: white
+  transition: all .2s ease-in
+
+button:hover
+  background-color: white
+  color: black
+  transform: scale(.8)
+
+h1,h2,h3,h4
+  line-height: .5rem
+
+h1
+  font-size: 3rem
+h2
+  font-size: 2rem
+  padding-bottom: 1.2rem
+  border-bottom: 2px solid white 
+
+h3
+  font-size: 1.5rem
+h4
+  font-size: 1.2rem
+  color: darkgrey
+
+body 
+  font-family: 'Nunito Sans', sans-serif
+  text-align: center
+  font-size: 16px
+  margin: 1rem
+  padding: 1rem
+  background-color: whitesmoke
+  height: calc( 100vh - 4rem )
+
+main
+  display: grid
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr))
+  gap: 1rem
+
+  section
+    background-color: white
+    border: 1px dashed coral
+    border-radius: .2rem
+    padding: 1rem
+
+    form
+      display: flex
+      flex-direction: column
+      width: 70%
+      margin: 0 auto

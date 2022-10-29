@@ -29,3 +29,7 @@ Apuntes de TypeScript en español.
 - [The keyof constraint / Restricción keyof](/GenericsTypes/04.KeyofConstraint.md)
 - [Generics Classes / Clases genéricas](/GenericsTypes/05.GenericClasses.md)
 - [Generic utility types / Utilidades para tipos genéricos](/GenericsTypes/06.GenericUtilityTypes.md)
+
+## **Decorators (Decoradores)**
+
+- [Generics Types / Tipos Genéricos](/Decorators/01.FirstClassDecorators.md)
